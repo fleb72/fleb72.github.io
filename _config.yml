@@ -3,6 +3,7 @@
 include:
   - _includes
   - assets/favicons
+  
 #  - assets/css
 #  - assets/js
 
