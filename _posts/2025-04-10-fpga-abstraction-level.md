@@ -6,7 +6,7 @@ tags: [FPGA]
 math: true
 ---
 
-Hardware Description Languages (HDLs) such as VHDL or Verilog/SystemVerilog are not classic programming languages such as C, C++, Java, etc. Even if procedural sequences are found in the syntax of these languages, it is no longer a question of producing sequences of instructions executed sequentially by a CPU.
+Hardware Description Languages (HDLs) such as VHDL or Verilog/SystemVerilog are not classic programming languages such as C, C++, Java, Python, etc. Even if procedural sequences are found in the syntax of these languages, it is no longer a question of producing sequences of instructions executed sequentially by a CPU.
 
 [multiplexer](https://en.wikipedia.org/wiki/Multiplexer) (sometimes called a *data selector*) in SystemVerilog (an extension of the Verilog language).
 
