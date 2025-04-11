@@ -160,6 +160,10 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
+# rajouté par fleb72
+site.url: "https://fleb72.github.io"
+
+
 # ------------ The following options are not recommended to be modified ------------------
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
