@@ -203,6 +203,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: "assets/favicons"
+    values:
+      sitemap: false # Empêche Jekyll d’ajouter les favicons au sitemap
 
 sass:
   style: compressed
