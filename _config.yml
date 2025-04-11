@@ -1,6 +1,7 @@
 # The Site Configuration
 
 include:
+  - _includes
   - assets/css
   - assets/js
 
