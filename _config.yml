@@ -1,9 +1,9 @@
 # The Site Configuration
 
-include:
-  - _includes
-  - assets/favicons
-  
+#include:
+#  - _includes
+#  - assets/favicons
+
 #  - assets/css
 #  - assets/js
 
