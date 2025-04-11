@@ -158,7 +158,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+site.baseurl: ""
 
 # rajouté par fleb72
 site.url: "https://fleb72.github.io"
