@@ -2,6 +2,9 @@
 
 include:
   - _includes
+  - assets/favicons
+  - assets/css
+  - assets/js
 
 
 # Import the theme
