@@ -1,9 +1,9 @@
 # The Site Configuration
 
-include:
-  - _includes
-  - assets/css
-  - assets/js
+#include:
+#  - _includes
+#  - assets/css
+#  - assets/js
 
 
 # Import the theme
