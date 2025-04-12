@@ -4,6 +4,7 @@ date: 2025-04-12
 categories: [FPGA]
 tags: [FPGA]
 math: true
+permalink: "/posts/fpga-abstraction-level-2/"
 ---
 **/!\ à paraître...**
  

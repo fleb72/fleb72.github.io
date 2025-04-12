@@ -4,6 +4,7 @@ date: 2025-04-10
 categories: [FPGA]
 tags: [FPGA]
 math: true
+permalink: "/posts/fpga-abstraction-level-1/"
 ---
 
 On ne le rappellera jamais assez... Les langages de description de matériel (ou HDL pour *Hardware Description Language*) tels VHDL ou Verilog/SystemVerilog ne sont pas des langages de programmation classiques comme C, C++, Java, etc. Même si on retrouve des séquences procédurales dans la syntaxe de ces langages, il ne s'agit plus de produire des suites d'instructions exécutées séquentiellement par un CPU.
