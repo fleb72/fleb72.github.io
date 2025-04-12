@@ -119,4 +119,8 @@ Le module ici est même paramétré pour une largeur de bus `WIDTH` quelconque. 
 
 Bien entendu, même en se limitant à la logique combinatoire, il est difficile de tout concevoir de cette façon pour des fonctionnalités avancées. De plus, il est difficile de modifier la structure si la fonctionnalité doit évoluer, le code est difficilement maintenable. Il faut alors programmer à un plus haut niveau d'abstraction et faire confiance au synthétiseur logique pour générer la structure.
 
-Dans la deuxième partie de ce billet, nous verrons les derniers niveaux d'abstraction : flot de données et comportemental... 
+Dans la deuxième partie de ce billet, nous verrons les derniers niveaux d'abstraction : flot de données et comportemental...
+
+> Ce billet m'a été fortement inspiré par le livre [Designing Digital Systems With SystemVerilog (v2.1) de Brent E. Nelson](https://www.amazon.com/Designing-Digital-Systems-SystemVerilog-v2-1/dp/B091CRDBNN).
+Les schémas structurels sont des copies d'écran de vues RTL (*Register Transfer Level*) dans [Intel Quartus Prime](https://www.intel.fr/content/www/fr/fr/products/details/fpga/development-tools/quartus-prime.html).
+{: .prompt-info }
