@@ -4,5 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Sur ce site, vous trouverez des notes pêle-mêle sur mes bricolages en informatique, mais surtout sur Arduino, ESP32, Raspberry Pi, FPGA, etc.
+
+Mes notes seront rédigées en français uniquement 🇫🇷, parce que... et il n'y a même pas à discuter ;-)
+
+> Le site est encore en construction...
+{: .prompt-warning }
