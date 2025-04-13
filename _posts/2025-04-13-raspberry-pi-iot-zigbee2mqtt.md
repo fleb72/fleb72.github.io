@@ -1,7 +1,7 @@
 ---
 title: "Projet IoT avec Raspberry Pi et Zigbee2MQTT"
 date: 2025-04-13
-categories: ['Raspberry Pi', 'IoT', 'domotique', 'Zigbee']
+categories: ['Raspberry Pi', 'domotique']
 tags: ['Raspberry Pi', 'IoT', 'domotique', 'Zigbee2MQTT', 'MQTT', 'Zigbee']
 math: false
 ---
