@@ -5,6 +5,7 @@ categories: [FPGA]
 tags: [FPGA]
 math: true
 permalink: "/posts/fpga-abstraction-level-1/"
+target_blank: true
 ---
 
 On ne le rappellera jamais assez... Les langages de description de matériel (ou HDL pour *Hardware Description Language*) tels VHDL ou Verilog/SystemVerilog ne sont pas des langages de programmation classiques comme C, C++, Java, etc. Même si on retrouve des séquences procédurales dans la syntaxe de ces langages, il ne s'agit plus de produire des suites d'instructions exécutées séquentiellement par un CPU.
@@ -18,7 +19,7 @@ Les HDL permettent à ce titre au développeur de faire des descriptions de mat�
 
 Lors de la phase dite de « compilation », le synthétiseur prend en charge le programme en HDL pour générer le circuit logique d'abord, pour finalement produire le fichier binaire *bitstream* qui va configurer la puce FPGA cible avec le placement et le routage des composants de façon la plus optimisée possible.
 
-À titre de démonstration, on propose de découvrir ces trois niveaux d'abstraction à travers la description d'un circuit logique combinatoire simple appelé [multiplexeur](https://en.wikipedia.org/wiki/Multiplexer)  (parfois appelé *sélecteur*) en SystemVerilog (une extension du langage Verilog).
+À titre de démonstration, on propose de découvrir ces trois niveaux d'abstraction à travers la description d'un circuit logique combinatoire simple appelé [multiplexeur](https://en.wikipedia.org/wiki/Multiplexer){:target="_blank"} (parfois appelé *sélecteur*) en SystemVerilog (une extension du langage Verilog).
 
 
 ### Définition d'un multiplexeur (abrégé *MUX*)
@@ -122,6 +123,6 @@ Bien entendu, même en se limitant à la logique combinatoire, il est difficile 
 
 Dans la deuxième partie de ce billet, nous verrons les derniers niveaux d'abstraction : flot de données et comportemental...
 
-> Ce billet m'a été fortement inspiré par le livre [Designing Digital Systems With SystemVerilog (v2.1) de Brent E. Nelson](https://www.amazon.com/Designing-Digital-Systems-SystemVerilog-v2-1/dp/B091CRDBNN).
-Les schémas structurels sont des copies d'écran de vues RTL (*Register Transfer Level*) dans [Intel Quartus Prime](https://www.intel.fr/content/www/fr/fr/products/details/fpga/development-tools/quartus-prime.html).
+> Ce billet m'a été fortement inspiré par le livre [Designing Digital Systems With SystemVerilog (v2.1) de Brent E. Nelson](https://www.amazon.com/Designing-Digital-Systems-SystemVerilog-v2-1/dp/B091CRDBNN){:target="_blank"}.
+Les schémas structurels sont des copies d'écran de vues RTL (*Register Transfer Level*) dans [Intel Quartus Prime](https://www.intel.fr/content/www/fr/fr/products/details/fpga/development-tools/quartus-prime.html){:target="_blank"}.
 {: .prompt-info }

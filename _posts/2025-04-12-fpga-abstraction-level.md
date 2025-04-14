@@ -5,8 +5,9 @@ categories: [FPGA]
 tags: [FPGA]
 math: true
 permalink: "/posts/fpga-abstraction-level-2/"
+target_blank: true
 ---
-Lors du [billet précédent]({{ site.baseurl }}{{ site.url }}/posts/fpga-abstraction-level-1/), nous avions vu comment établir la description d'un composant simple appelé multiplexeur :
+Lors du [billet précédent]({{ site.baseurl }}{{ site.url }}/posts/fpga-abstraction-level-1/){:target="_blank"}, nous avions vu comment établir la description d'un composant simple appelé multiplexeur :
 
 ![](/assets/img/posts/2025-04-12-fpga-abstraction-level/mux.png)
 *Si `sel=0`, `a` est dirigé vers `s`, et si `sel=1`, c'est `b` qui est dirigé vers `s`*
@@ -161,6 +162,6 @@ Pour autant, dans un projet un peu consistant, vous allez certainement mixer les
 ![chrono avec 7-segments](/assets/img/posts/2025-04-12-fpga-abstraction-level/seg7.png)
 *Exemple de structure d'un projet de chronomètre (au 1/10è de seconde avec afficheur 7-segments). Un module pour le comptage, un pour l'affichage du compteur, un autre pour filtrer les rebonds d'un bouton-poussoir, etc.*
 
-> Ce billet m'a été fortement inspiré par le livre [Designing Digital Systems With SystemVerilog (v2.1) de Brent E. Nelson](https://www.amazon.com/Designing-Digital-Systems-SystemVerilog-v2-1/dp/B091CRDBNN).
-Les schémas structurels sont des copies d'écran de vues RTL (*Register Transfer Level*) dans [Intel Quartus Prime](https://www.intel.fr/content/www/fr/fr/products/details/fpga/development-tools/quartus-prime.html).
+> Ce billet m'a été fortement inspiré par le livre [Designing Digital Systems With SystemVerilog (v2.1) de Brent E. Nelson](https://www.amazon.com/Designing-Digital-Systems-SystemVerilog-v2-1/dp/B091CRDBNN){:target="_blank"}.
+Les schémas structurels sont des copies d'écran de vues RTL (*Register Transfer Level*) dans [Intel Quartus Prime](https://www.intel.fr/content/www/fr/fr/products/details/fpga/development-tools/quartus-prime.html){:target="_blank"}.
 {: .prompt-info }

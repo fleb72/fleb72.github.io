@@ -163,6 +163,7 @@ site.url: "https://fleb72.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 kramdown:
+  parse_block_html: true # Enable parsing of block HTML tags
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
