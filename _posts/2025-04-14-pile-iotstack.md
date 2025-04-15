@@ -22,7 +22,7 @@ Passons ces outils en revue...
 
 Voir [IOTstack/Mosquitto](https://sensorsiot.github.io/IOTstack/Containers/Mosquitto/){:target="_blank"}.
 
-MQTT est un protocole léger conçu pour des réseaux à bande passante limitée fonctionne suivant un modèle de publication-abonnement (*publish-suscribe*).
+MQTT est un protocole léger conçu pour des réseaux à bande passante limitée qui fonctionne suivant un modèle de publication-abonnement (*publish-suscribe*).
 Dans cette architecture MQTT, vous avez les clients qui publient des messages dans une rubrique (un *topic*), par exemple `\home\bedroom` pour les données environnementales de la chambre, et les clients qui s’abonnent au *topic* et recevront les données les concernant. Le dispositif central de l’architecture est le *broker* (courtier) qui relaie les messages publiés aux abonnés.
 
 ![Broker MQTT](/assets/img/posts/2025-04-14-pile-iotstack/publish-subscribe-broker-mqtt.png)
@@ -122,7 +122,7 @@ Grafana permet bien sûr de récupérer vos données grâce à un connecteur Inf
 ![Grafana, connecteur InfluxDB](/assets/img/posts/2025-04-14-pile-iotstack/grafana11.jpeg)
 *Connexion à une base InfluxDB*
 
-Vous pouvez alors créer votre tableaux de bord avec des graphiques de visualisation :
+Vous pouvez alors créer votre tableau de bord avec des graphiques de visualisation :
 
 ![Grafana, série temporelles](/assets/img/posts/2025-04-14-pile-iotstack/grafana_time_series.png)
 *Graphique des températures, avec la moyenne temporelle sur 1 heure*
