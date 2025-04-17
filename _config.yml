@@ -66,7 +66,7 @@ analytics:
   google:
     id: # fill in your Google Analytics ID
   goatcounter:
-    id: "techfleb.goatcounter.com" # fill in your GoatCounter ID
+    id: "techfleb" # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
