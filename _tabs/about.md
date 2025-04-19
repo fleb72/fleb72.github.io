@@ -10,3 +10,19 @@ Mes notes seront rédigées en français uniquement 🇫🇷, parce que... et il
 
 > Le site est encore en construction...
 {: .prompt-warning }
+
+> **Politique de confidentialité** – Suivi des visites avec GoatCounter
+>
+> Dans le cadre de l'amélioration de l'expérience utilisateur et de l'analyse du trafic, ce site utilise GoatCounter, un outil de statistiques respectueux de la vie privée. GoatCounter ne collecte aucune donnée personnelle et ne stocke aucun cookie sur votre navigateur.
+>
+> Les informations enregistrées incluent :
+> - L'URL des pages visitées ;
+> - Le référent (site précédent) ;
+> - Les informations du navigateur et du système (sans stockage des données brutes) ;
+> - La taille de l'écran ;
+> - La localisation approximative (pays et région, sans adresse IP enregistrée).
+>
+> Ces données sont utilisées uniquement à des fins statistiques et ne sont jamais partagées avec des tiers. Vous pouvez consulter la [politique de confidentialité de GoatCounter](https://www.goatcounter.com/help/privacy){:target="_blank"} pour plus de détails.
+>
+> Si vous souhaitez exclure votre visite du suivi, vous pouvez désactiver JavaScript ou utiliser un bloqueur de scripts.
+{: .prompt-warning }
