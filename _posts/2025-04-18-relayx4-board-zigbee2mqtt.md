@@ -27,7 +27,7 @@ Et voici un schéma de l'architecture du réseau testée :
 
 ![Architecture réseau zigbee](/assets/img/posts/2025-04-18-relayx4-board-zigbee2mqtt/architecture-rpi-zigbee2mqtt.png)
 
-La carte est alimentée par le secteur 230 V (bornier à vis pour phase L et neutre N), et on peut déjà regretter de ne pas avoir proposé une alimentation 12 ou 24 V CC.
+La carte est alimentée par le secteur 230 V (bornier à vis pour phase L et neutre N), et on peut déjà regretter de ne pas avoir proposé une alimentation 12 ou 24 V CC. D'un autre côté, avec cette alimentation stable, la carte peut fonctionner en routeur Zigbee, et donc étendre la portée de votre réseau Zigbee.
 
 Le constructeur propose plusieurs versions de son firmware, j’ai pris celle avec l’option : *Independent Push (closing the input switches the status to the opposite)*. Avec cette option, les entrées et la commande des relais fonctionnent de façon indépendante.
 
