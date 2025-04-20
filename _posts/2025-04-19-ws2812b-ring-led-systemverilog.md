@@ -9,7 +9,7 @@ target_blank: true
 
  Les *Arduinautes* connaissent bien ce genre de LEDs programmables que l'on retrouve souvent sous la forme de [rubans souples de longueur 1m, 3m, ... 10m et plus](https://duckduckgo.com/?t=h_&q=ruban+led+ws2812b&iax=shopping&ia=shopping){:target="_blank"}, et que l'on utilise pour créer des effets lumineux personnalisés. Voir les bibliothèques [FastLED](https://docs.arduino.cc/libraries/fastled/){:target="_blank"} ou [NeoPixel par Adafruit](https://docs.arduino.cc/libraries/adafruit-neopixel/){:target="_blank"}.
 
-Pour la démonstration, j'utiliserai un anneau de 12 LEDs WS2812B (quelques euros l'anneau en cherchant bien), mais que je connecterai à une carte FPGA [DE0-Nano](https://www.intel.com/content/www/us/en/partner/showcase/offering/a5b3b0000004cb9AAA/de0nano-development-and-education-board.html){:target="_blank"}.
+Pour la démonstration, j'utiliserai un anneau de 12 LEDs WS2812B (quelques euros l'anneau en cherchant bien), mais que je connecterai à une carte FPGA [DE0-Nano](https://www.intel.com/content/www/us/en/partner/showcase/offering/a5b3b0000004cb9AAA/de0nano-development-and-education-board.html){:target="_blank"} dans l'environnement de la suite *Intel Quartus Prime*.
 
 ![DE0-Nano et anneau 1 LEDs WS2812B](/assets/img/posts/2025-04-19-ws2812b-ring-led-systemverilog/20230802_130816.jpg)
 *La carte FPGA, en grand seigneur des ténèbres, contrôle les pouvoirs de l'anneau Unique forgé par Sauron...*
