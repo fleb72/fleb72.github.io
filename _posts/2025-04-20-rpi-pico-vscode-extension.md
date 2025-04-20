@@ -7,6 +7,10 @@ math: false
 target_blank: true
 ---
 
+![Ma carte Raspberry Pi Pico](/assets/img/posts/2025-04-20-rpi-pico-vscode-extension/20230419_182324.jpg)
+*La Raspberry Pi Pico que j'utilise est montée sur une petite plaque de câblage, avec un bouton-poussoir Reset entre les broches (28)GND et (30)RUN.*
+
+
 Il y a maintenant une extension officielle VSCode pour développer sur la carte à microcontrôleur Raspberry Pi Pico. Voir  [Github - The official VS Code extension for Raspberry Pi Pico development](https://github.com/raspberrypi/pico-vscode){:target="_blank"}.
 L'extension est encore en phase de développement, mais on espère gagner en confort avec la préparation de l'environnement de développement et quelques icônes pour compiler, flasher, exécuter, déboguer, etc. aussi bien en C/C++ ([SDK C/C++](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html#raspberry-pi-pico-cc-sdk){:target="_blank"}), mais aussi en [MicroPython](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html){:target="_blank"}.
 
@@ -34,6 +38,9 @@ J'essaie maintenant de flasher la Pico par l'intermédiaire d'une sonde qui serv
 
 ![Pico sonde debug](/assets/img/posts/2025-04-20-rpi-pico-vscode-extension/pico-sonde-debug.jpg)
 *À gauche, la sonde de programmation/débogage. À droite la Raspberry Pi Pico cible.*
+
+![Schéma câblage pico sonde](/assets/img/posts/2025-04-20-rpi-pico-vscode-extension/pi-pico-swd.png)
+*Schéma Fritzing de câblage, la sonde est à gauche*
 
 ### Débogage
 
