@@ -19,9 +19,9 @@ timezone: Europe/Paris
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: fleb72 # the main title
+title: TechFleB - Arduino, Raspberry Pi, FPGA, etc. # the main title
 
-tagline: Arduino, Raspberry Pi, FPGA... # it will display as the subtitle
+tagline: Tutoriels, articles, news... # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   blog, fleb72, github, arduino, esp32, raspberry, pi, fpga, verilog
