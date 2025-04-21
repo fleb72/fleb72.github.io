@@ -9,7 +9,7 @@ target_blank: true
 ---
 Lors du [billet précédent]({{ site.baseurl }}{{ site.url }}/posts/fpga-abstraction-level-1/){:target="_blank"}, nous avions vu comment établir la description d'un composant simple appelé multiplexeur :
 
-![](/assets/img/posts/2025-04-12-fpga-abstraction-level/mux.png)
+![Description Mux](/assets/img/posts/2025-04-12-fpga-abstraction-level/mux.png)
 *Si `sel=0`, `a` est dirigé vers `s`, et si `sel=1`, c'est `b` qui est dirigé vers `s`*
 
 Au niveau d'abstraction le plus bas, le niveau structurel, ce composant est décrit par le câblage de portes logiques élémentaires (portes AND, OR et NOT dans ce cas précis). Voyons comment pourrait-on établir une description de ce composant à un plus haut niveau d'abstraction.
