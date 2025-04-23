@@ -2,7 +2,7 @@
 title: "Le KAARduino scanner kit"
 date: 2025-04-15
 categories: [Arduino]
-tags: [Arduino]
+tags: ['fun-tech']
 math: false
 target_blank: false
 ---

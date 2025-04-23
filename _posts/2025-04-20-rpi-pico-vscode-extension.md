@@ -2,7 +2,7 @@
 title: "Une extension Visual Studio Code officielle pour programmer votre Raspberry Pi Pico"
 date: 2025-04-20
 categories: ['Raspberry Pi', 'Raspberry Pi Pico']
-tags: ['Raspberry Pi', 'Raspberry Pi Pico']
+tags: ['vscode']
 math: false
 target_blank: true
 ---

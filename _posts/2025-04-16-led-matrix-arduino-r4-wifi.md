@@ -2,7 +2,7 @@
 title: "Arduino Uno R4 WiFi et la matrice de LEDs"
 date: 2025-04-16
 categories: [Arduino]
-tags: [Arduino, ArduinoUnoR4WiFi]
+tags: [ArduinoUnoR4WiFi]
 math: true
 target_blank: true
 ---

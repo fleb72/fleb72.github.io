@@ -2,7 +2,7 @@
 title: "Un anneau de LEDs WS2812B en feu"
 date: 2025-04-20
 categories: [FPGA]
-tags: [FPGA, systemVerilog]
+tags: ['fun-tech', systemVerilog]
 math: false
 target_blank: true
 ---

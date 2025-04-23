@@ -2,7 +2,7 @@
 title: "Logique séquentielle et conception RTL (Register Transfer Level)"
 date: 2025-04-15
 categories: [FPGA]
-tags: [FPGA]
+tags: [systemVerilog]
 math: true
 target_blank: true
 ---

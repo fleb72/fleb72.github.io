@@ -2,7 +2,7 @@
 title: "Carte relaisx4 compatible Zigbee2MQTT"
 date: 2025-04-18
 categories: ['Raspberry Pi', 'domotique']
-tags: ['Raspberry Pi', 'IoT', 'domotique', 'Zigbee2MQTT', 'MQTT', 'Zigbee']
+tags: ['IoT', 'Zigbee2MQTT', 'MQTT', 'Zigbee']
 math: false
 target_blank: true
 ---

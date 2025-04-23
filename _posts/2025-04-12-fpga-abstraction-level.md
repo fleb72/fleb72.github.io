@@ -2,7 +2,7 @@
 title: "Les niveaux d'abstraction dans les langages de description de matériel (HDL) - Partie 2/2"
 date: 2025-04-12
 categories: [FPGA]
-tags: [FPGA, systemVerilog]
+tags: [systemVerilog]
 math: true
 permalink: "/posts/fpga-abstraction-level-2/"
 target_blank: true

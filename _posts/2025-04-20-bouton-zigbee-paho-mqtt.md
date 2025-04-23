@@ -2,7 +2,7 @@
 title: "Bouton connecté Zigbee, connexion MQTT en Python avec Eclipse Paho-MQTT"
 date: 2025-04-20
 categories: ['Raspberry Pi', 'domotique']
-tags: ['Raspberry Pi', 'IoT', 'domotique', 'Zigbee2MQTT', 'MQTT', 'Zigbee', 'Python']
+tags: [ 'IoT', 'Zigbee2MQTT', 'MQTT', 'Zigbee', 'Python']
 math: false
 target_blank: true
 ---

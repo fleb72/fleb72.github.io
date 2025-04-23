@@ -36,7 +36,7 @@ Vous touchez du doigt ici la technologie des architectures PSoC (qui n'est pas s
 *Illustration Infineon : PSoC, une puce programmable et configurable autour d'un MCU ARM-Cortex selon Infineon*
 
 Pour vous convaincre encore, analysez ce schéma dessiné dans PSoC Creator
-![Bouton bascule](/assets/img/posts/2025-04-21-kits-infineon-psoc-arm/Button_toggle-Led.PNG)
+![Bouton bascule](/assets/img/posts/2025-04-21-kits-infineon-psoc-arm/Button_toggle-Led.PNG) :
 *Comment réaliser un interrupteur à bascule pour allumer/éteindre une LED avec un bouton à appui momentané ?*
 
 Avec le kit PSoC, un *Debouncer*, une bascule T *toggle* et pas une ligne de code pour sa gestion, puisque tout est géré matériellement. Faites la comparaison avec l'exemple qui suit sous Arduino, avec toute la logique de détection de front et pause antirebonds codée en langage C/C++ Arduino :

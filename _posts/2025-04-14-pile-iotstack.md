@@ -2,7 +2,7 @@
 title: "La pile IOTstack pour Raspberry Pi"
 date: 2025-04-14
 categories: ['Raspberry Pi', 'domotique']
-tags: ['Raspberry Pi', 'IoT', 'domotique', 'Zigbee2MQTT', 'MQTT', 'Zigbee', 'Docker']
+tags: ['IoT', 'Zigbee2MQTT', 'MQTT', 'Zigbee', 'Docker']
 math: false
 target_blank: true
 ---

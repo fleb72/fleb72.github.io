@@ -2,7 +2,7 @@
 title: "Piloter un anneau de LEDs WS2812B adressables"
 date: 2025-04-19
 categories: [FPGA]
-tags: [FPGA, systemVerilog]
+tags: ['fun-tech', systemVerilog]
 math: false
 target_blank: true
 ---
