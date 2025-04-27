@@ -105,5 +105,6 @@ Intel Quartus Prime Lite intègre un outil nommé *Signal Tap Logic Analyser* pe
 ![Signal Tap Logic Analyser](/assets/img/posts/2025-04-27-fpga-rotative-encoder/Signal-tap.png)
 *Analyseur logique intégré dans Quartus Prime*
 
-- Lien vers le projet : *à paraître...*
+
+- [Lien vers le projet](https://github.com/fleb72/FPGA-encoder){:target="_blank"}.
 
