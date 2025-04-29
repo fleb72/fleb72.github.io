@@ -208,7 +208,7 @@ Et voici le résultat sur écran VGA, grande émotion...
 
 #### Des rectangles
 
-Ici, on dessine trois rectangles (qui ne se chevauchent pas) rouge, jaune et bleu sur un fond cyan.
+Ici, on dessine trois rectangles (qui ne se chevauchent pas) rouge, vert et bleu sur un fond cyan.
 
 ```verilog
 module drawing (   
