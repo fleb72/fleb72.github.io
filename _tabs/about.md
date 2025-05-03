@@ -5,6 +5,7 @@ order: 4
 ---
 
 Sur ce site, vous trouverez des notes pêle-mêle sur mes bricolages en informatique, mais surtout sur Arduino, ESP32, Raspberry Pi, FPGA, etc.
+Je suis également contributeur sur [developpez.com](https://www.developpez.com/){:target="_blank"} où j’ai publié plusieurs tutoriels sur les FPGA et le développement embarqué. Vous pouvez retrouver mes articles sur [mon profil Developpez](https://f-leb.developpez.com/){:target="_blank"}.
 
 Mes notes seront rédigées en français uniquement 🇫🇷, parce que... et il n'y a même pas à discuter ;-)
 
