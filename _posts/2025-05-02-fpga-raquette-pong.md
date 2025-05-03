@@ -1,5 +1,5 @@
 ---
-title: "La raquette du Pong sur FPGA"
+title: "Les raquettes du Pong sur FPGA"
 date: 2025-05-02
 categories: [FPGA]
 tags: [systemVerilog, VGA]
@@ -10,11 +10,11 @@ target_blank: true
 Ce billet est la suite logique... Après [la prise de contrôle du port VGA]({{ site.baseurl }}{{ site.url }}/posts/fpga-vga-controler/){:target="_blank"} et [le décodage des signaux en quadrature d'un encodeur rotatif]({{ site.baseurl }}{{ site.url }}/posts/fpga-rotative-encoder/){:target="_blank"}, *nous contrôlons les horizontales et les verticales. Nous pouvons vous noyer sous un millier de chaînes ou dilater une simple image jusqu'à lui donner la clarté du cristal, et même au-delà...*[^footnote]
 
 Euh, non... Plus modestement, je commence un Pong. C'est tellement original comme idée, je n'ai pas pû y résister.
-Je commence un Pong, mais j'y vais doucement. Dans ce billet, je vais animer la raquette du Pong et ce sera déjà bien, si.
+Je commence un Pong, mais j'y vais doucement. Dans ce billet, je vais animer la raquette du Pong, et puis la deuxième, et ce sera déjà bien, si.
 
 {% include embed/youtube.html id='0u9VgD1mrtE' %}
 
-### Architecture du projet
+### Animer la raquette du Pong, architecture du projet
 
 ![vue RTL, raquette pong](/assets/img/posts/2025-05-02-fpga-raquette-pong/rtlview-pong-raquette.png)
 
@@ -132,6 +132,87 @@ module drawing (
 
 endmodule
 ```
+
+### Et avec deux raquettes
+
+Il suffit de dupliquer le matériel, y compris celui synthétisé dans la puce FPGA :
+
+![photo raquette x 2](/assets/img/posts/2025-05-02-fpga-raquette-pong/photo-raquettex2.jpg)
+
+![vue RTL, raquette x 2 pong](/assets/img/posts/2025-05-02-fpga-raquette-pong/rtlview-pong-raquettex2.png)
+
+Et pour animer les deux raquettes, le code du module *drawing.sv* devient :
+
+```verilog
+module drawing (
+    input logic clk25,
+    input logic [9:0] x, y,
+    input logic signed [1:0] dir2,
+    input logic signed [1:0] dir1,
+    input logic inDisplayArea,
+    input logic hsync, vsync,
+    output logic [3:0] vga_r, vga_g, vga_b,
+    output logic vga_hsync, vga_vsync
+);
+
+    localparam PADDLE_WIDTH  = 60;
+    localparam PADDLE_HEIGHT = 20;
+    localparam SCREEN_WIDTH  = 640;
+    localparam INIT_POSITION = (SCREEN_WIDTH - PADDLE_WIDTH) / 2; // raquette initialement au centre
+    localparam X = 0;
+    localparam Y = 1;
+   
+    logic [1:0][1:0] dir; // Tableau contenant 2 bus de 2 bits chacun
+    assign dir = '{dir1, dir2};
+
+    logic [9:0] paddle [2][2] = '{ 
+                                   '{INIT_POSITION, 440},  // Paddle 1
+                                   '{INIT_POSITION,  40}   // Paddle 2
+                                 };
+   
+    integer speed = 10; // vitesse
+
+    always_ff @(posedge clk25) begin 
+       for (int i = 0; i < 2; i++) begin
+          if (dir[i] != 0) begin
+            if (dir[i] == 1) begin
+              paddle[i][X] <= (paddle[i][X] + speed < SCREEN_WIDTH - PADDLE_WIDTH) ? paddle[i][X] + speed : SCREEN_WIDTH - PADDLE_WIDTH;
+            end else begin
+              paddle[i][X] <= (paddle[i][X] > speed) ? paddle[i][X] - speed : 0;
+            end
+          end
+       end
+    end
+
+
+// ----- Gestion de l'affichage -----
+    logic [3:0] r, g, b;
+
+    always_comb begin
+      r = 4'h0;  // Couleur de fond
+      g = 4'hF;
+      b = 4'hF; 
+
+      if (inDisplayArea) begin
+          for (int i = 0; i < 2; i++) begin
+            if (x > paddle[i][X] && x < paddle[i][X] + PADDLE_WIDTH &&
+                y > paddle[i][Y] && y < paddle[i][Y] + PADDLE_HEIGHT) begin
+                  r = 4'hF;  // Couleur de la raquette
+                  g = 4'h0;
+                  b = 4'h0;
+            end
+          end
+      end
+    end   
+
+    always_ff @(posedge clk25) begin
+        {vga_hsync, vga_vsync} <= {hsync, vsync};
+        {vga_r, vga_g, vga_b}  <= {r, g, b};
+    end
+
+endmodule
+```
+
 
 Vous trouverez le projet réalisé avec Intel Quartus Prime sur mon dépôt : [FPGA-paddle-VGA](https://github.com/fleb72/FPGA-paddle-VGA){:target="_blank"}.
 
