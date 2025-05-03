@@ -170,3 +170,5 @@ En résumé, avec un microcontrôleur classique, les opérations suivantes doive
 Avec l'architecture PSoC et son environnement de développement PSoC Creator, la conception d'un circuit avec un générateur PWM est réalisée à la souris en quelques clics. Vous disposez vos composants dans la fenêtre *design*, vous les paramétrez, vous interconnectez les composants et routez les entrées-sorties vers les broches GPIO de votre choix. Génial !
 
 Il y a beaucoup à dire sur ces kits Infineon et la technologie des puces PSoC4/PSoc6. Si vous voulez débuter avec ces kits CY8CKIT PSoC4, j'ai préparé quelques activités *Getting started* pour jouer avec des LEDs, des boutons-poussoirs, la liaison série, etc. : [PSOC4-Débuter](https://github.com/fleb72/PSOC4-Debuter){:target="_blank"}
+
+Et pour plus de détails encore, vous pouvez consulter mes articles consacrés aux cartes Infineon PSoC 4 (anciennement Cypress) [sur Developpez](https://f-leb.developpez.com/#contrib-perso-infineon-cypress-psoc){:target="_blank"}. 
