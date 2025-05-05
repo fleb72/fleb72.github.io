@@ -72,4 +72,6 @@ En postion neutre, les deux leds centrales 3 et 4 sont allumées. Un ruban de le
 
 Essai concluant, le ruban se forme progressivement lorsque je pousse ou tire doucement le joystick...
 
+Lien vers le dépôt du projet : [fpga-adc-joystick-1](https://github.com/fleb72/fpga-adc-joystick-1){:target="_blank"}
+
 Mais avec un joystick, et un écran VGA, on peut faire beaucoup mieux. À suivre ;-)
