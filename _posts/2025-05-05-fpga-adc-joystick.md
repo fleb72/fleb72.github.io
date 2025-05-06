@@ -1,8 +1,8 @@
 ---
-title: "Décoder les signaux analogiques d'un mini-joystick avec l'ADC de ma carte FPGA DE0-nano - partie 1"
+title: "Décoder les signaux analogiques d'un mini-joystick avec l'ADC de ma carte FPGA DE0-nano"
 date: 2025-05-05
 categories: [FPGA]
-tags: [systemVerilog, VGA]
+tags: [systemVerilog]
 math: true
 target_blank: true
 permalink: "/posts/fpga-adc-joystick-1/"
@@ -22,7 +22,7 @@ Comme un c@#, j'avais rédigé un tutoriel [Communication SPI avec un convertiss
 
 ### Mise en œuvre du contrôleur de l'ADC
 
-Et le composant analogique que je vais utiliser pour tester l'ADC est un mini-joystick HW-504. Le joystick est monté sur un mécaniqme articulé avec deux potentiomètres rotatifs à axes perpendiculaires X et Y. Le mouvement gauche-droite entraîne la rotation du potentiomètre autour de l'axe X. Le mouvement avant-arrière entraîne la rotation de l'autre potentiomètre autour de l'axe Y. Et toute autre direction prise par le joystick affectera la rotation des deux potentiomètres. Ansi, les valeurs retournées par les rotations des deux potentiomètres donneront une image de la direction dans le plan X,Y donnée au joystick.
+Et le composant analogique que je vais utiliser pour tester l'ADC est un mini-joystick HW-504. Le joystick est monté sur un mécanisme articulé avec deux potentiomètres rotatifs à axes perpendiculaires X et Y. Le mouvement gauche-droite entraîne la rotation du potentiomètre autour de l'axe X. Le mouvement avant-arrière entraîne la rotation de l'autre potentiomètre autour de l'axe Y. Et toute autre direction prise par le joystick affectera la rotation des deux potentiomètres. Ansi, les valeurs retournées par les rotations des deux potentiomètres donneront une image de la direction dans le plan X,Y donnée au joystick.
 
 ![Joystick HW-504](/assets/img/posts/2025-05-05-fpga-adc-joystick/joystick-hw-504.jpg)
 *le Joystick HW-504 relié à deux entrées analogiques de la cartes FPGA*
