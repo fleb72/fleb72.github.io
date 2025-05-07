@@ -31,7 +31,7 @@ Pour un premier test, je ne vais relever que le mouvement avant-arrière du joys
 
 ![vue RTL contrôleur ADC](/assets/img/posts/2025-05-05-fpga-adc-joystick/rtlview-adc-controller.png)
 
-L'horloge `CLOCK`à l'entrée du contrôleur de l'ADC est réduite à 3,2MHz (200 échantillons par seconde en théorie). Le contrôleur se charge de la communication avec l'ADC selon le protocle série SPI (signaux `ADC_xxx`). Je devine que le contrôleur va chercher à échantillonner chacune des huits entrées analogiques tour à tour (mode *free running*). L'ADC présente le résultat 12 bits issu de la conversion A/N sur sa sortie série `ADC_DOUT`. Le contrôleur se charge alors de présenter le résultat entre 0 et 4095 sur un bus parallèle 12 bits `CHx[11..0]`pour exploitation.
+L'horloge `CLOCK`à l'entrée du contrôleur de l'ADC est réduite à 3,2MHz (200 échantillons par seconde en théorie). Le contrôleur se charge de la communication avec l'ADC selon le protocole série SPI (signaux `ADC_xxx`). Je devine que le contrôleur va chercher à échantillonner chacune des huits entrées analogiques tour à tour (mode *free running*). L'ADC présente le résultat 12 bits issu de la conversion A/N sur sa sortie série `ADC_DOUT`. Le contrôleur se charge alors de présenter le résultat entre 0 et 4095 sur un bus parallèle 12 bits `CHx[11..0]`pour exploitation.
 
 Ici, je dirige la sortie `CH0[11..0]` vers un autre contrôleur qui pilotera le  ruban de 8 Leds en surface de la carte FPGA :
 
