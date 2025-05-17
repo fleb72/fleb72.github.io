@@ -2,7 +2,7 @@
 title: "Encore un Pong sur FPGA"
 date: 2025-05-03
 categories: [FPGA]
-tags: [systemVerilog, VGA]
+tags: [systemVerilog, VGA, fun-tech]
 math: true
 target_blank: true
 ---
