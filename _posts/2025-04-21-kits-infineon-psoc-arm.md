@@ -2,7 +2,7 @@
 title: "Les cartes d'évaluation CY8CKIT Infineon et PSoC Creator"
 date: 2025-04-21
 categories: ['Infineon Kit PSoC']
-tags: ['Kits CY8CKIT', 'PSoC Creator']
+tags: ['Kits CY8CKIT', 'PSoC Creator', 'Hardware']
 math: false
 target_blank: true
 ---
