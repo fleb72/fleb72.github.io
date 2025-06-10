@@ -15,7 +15,7 @@ Je viens de me procurer la carte avec le processeur PSoC 6 du kit d'évaluation 
 - radar (détection de présence, tracking) ;
 - microphone à technologie MEMS (*Micro-Electro-Mechanical Systems*);
 - pression atmosphérique barométrique (300-1200 hPa) ;
-- centrale inertielle de mesure IMU 6 axes (rotation, taux de rotation).
+- centrale inertielle de mesure IMU 6 axes (accéléromètre et gyroscope).
 
 La plateforme complète comprend la suite [DEEPCRAFT™ Studio](https://developer.imagimob.com/){:target="_blank"} pour le développement complet d'une solution ML en partant de la collecte et l'étiquetage des données, la création et l'entraînement de modèles optimisés, jusqu'à leur déploiement sur la carte cible du kit Infineon.
 
