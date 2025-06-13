@@ -9,8 +9,6 @@ Je suis également contributeur sur [developpez.com](https://www.developpez.com/
 
 Mes notes seront rédigées en français uniquement 🇫🇷, parce que... et il n'y a même pas à discuter ;-)
 
-> Le site est encore en construction...
-{: .prompt-warning }
 
 > **Politique de confidentialité** – Suivi des visites avec GoatCounter
 >
