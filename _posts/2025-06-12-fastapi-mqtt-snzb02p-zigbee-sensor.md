@@ -144,7 +144,7 @@ Les trois acteurs de mon réseau local pour cette démonstration sont :
 
 Au démarrage du programme, le serveur se connecte au broker MQTT et s'abonne au topic `zigbee2mqtt/fleb-SNZB-02P` (les quatre premières lignes en bleu).
 
-Les six lignes qui suivent, en vert : Le client depuis un navigateur envoie une requête HTTP (`GET /`) et se fait servir la page Web en retour (`text/html`). Une connexion Websocket est établie et maintenue. le client et le serveur peuvent maintenant envoyer des messages WebSocket sans passer par des requêtes HTTP classiques.
+Les six lignes qui suivent, en vert : le client depuis un navigateur envoie une requête HTTP (`GET /`) et se fait servir la page Web en retour (`text/html`). Une connexion Websocket est établie et maintenue. le client et le serveur peuvent maintenant envoyer des messages WebSocket sans passer par des requêtes HTTP classiques.
 
 Les dernières lignes, en bleu : un message est publié sur le topic, du type `{"battery":100,"humidity":53.9,"last_seen":"2025-06-11T16:09:27.335Z","linkquality":131,"temperature":23.8}`, et intercepté par le serveur. Un nouveau message est alors envoyé via Websocket au client, la page est rafraîchie avec les nouvelles mesures de température et humidité. Un peu plus tard, un nouveau message MQTT est publié, et la page est rafraîchie une seconde fois.
 
