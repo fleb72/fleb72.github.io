@@ -47,7 +47,7 @@ Renseignez la bande de fréquence, la version de LoRaWAN et la version des param
 
 ![Associer end device -2](/assets/img/posts/2025-07-25-lorawan-heltec-esp32/ttn-register-enddevice2.jpg)
 
-Pour la suite, on laissera les options par défaut, notamment le mode d'activation OTAA (mode de connexion au réseau avec une requête `JoinRequest` envoyée par le nœud), et la classe A (le mode de communication le plus répandu et le plus économe en énergie):
+Pour la suite, on laissera les options par défaut, notamment le mode d'activation OTAA (mode de connexion au réseau avec une requête `JoinRequest` envoyée par le nœud), et la classe A (le mode de communication le plus répandu et le plus économe en énergie) :
 
 ![Associer end device -3](/assets/img/posts/2025-07-25-lorawan-heltec-esp32/ttn-register-enddevice3.jpg)
 
