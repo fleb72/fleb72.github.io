@@ -1,7 +1,7 @@
 ---
 title: "Mise à jour du firmware de coordinateur Zigbee"
 date: 2025-06-09
-categories: ['Raspberry Pi', 'domotique']
+categories: ['Raspberry Pi', "Internet des Objets", 'domotique']
 tags: ['IoT', 'Zigbee2MQTT', 'MQTT', 'Zigbee', 'Hardware']
 math: false
 target_blank: true

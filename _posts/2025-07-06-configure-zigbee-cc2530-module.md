@@ -1,7 +1,7 @@
 ---
 title: "Mode d'emploi : module Zigbee CC2530"
 date: 2025-07-06
-categories: ['Raspberry Pi', 'domotique']
+categories: ["Internet des Objets", 'domotique']
 tags: ['IoT', 'Zigbee2MQTT', 'MQTT', 'Zigbee', 'Hardware']
 math: false
 target_blank: true
@@ -78,6 +78,7 @@ Le câblage proposé est le suivant (avec un autre module) :
 Sur le module CC2530 :
 - `P2_2` : DC (*Debug Clock*)
 - `P2_1` : DD (*Debug Data*)
+- `RST`: Reset
 
 > Mais attention, notre module Zigbee est alimenté **en 3,3V**.
 {: .prompt-warning }

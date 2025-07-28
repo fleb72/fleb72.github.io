@@ -1,7 +1,7 @@
 ---
 title: "Affichage en temps réel des mesures de température et humidité du capteur Zigbee SNZB-02P avec FastAPI et MQTT"
 date: 2025-06-12
-categories: ['Raspberry Pi', 'domotique']
+categories: ["Internet des Objets", 'domotique']
 tags: ['IoT', 'Zigbee2MQTT', 'MQTT', 'Zigbee', 'Python']
 math: false
 target_blank: true

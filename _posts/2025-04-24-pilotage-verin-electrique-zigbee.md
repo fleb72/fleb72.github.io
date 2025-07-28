@@ -1,7 +1,7 @@
 ---
 title: "Piloter un vérin électrique depuis une page Web en Zigbee"
 date: 2025-04-24
-categories: ['Raspberry Pi', 'domotique']
+categories: ["Internet des Objets", 'domotique']
 tags: ['IoT', 'Zigbee2MQTT', 'MQTT', 'Zigbee']
 math: false
 target_blank: true
