@@ -16,9 +16,9 @@ Depuis, j'ai fait évoluer mon système en troquant le DS18B20 pour une sonde de
 ![Console TTN](/assets/img/posts/2025-08-19-architecture-lorawan-cloud-native/console-ttn.jpg)
 *Affichage des données formatées dans la console TTN*
 
-Un *payload* formaté sous la forme `{humidity: 50.6, temperature: 28.79}`est bien restitué dans la console toutes les 12 minutes conformément à la programmation de la carte Heltec LoRa 32 que j'utilise comme nœud de transmission LoRa.
+Un *payload* formaté comme `{humidity: 50.6, temperature: 28.79}`est bien restitué dans la console toutes les 12 minutes conformément à la programmation de la carte Heltec LoRa 32 que j'utilise comme nœud de transmission LoRa.
 
-Il s'agit maintenant d'exploiter ces données brutes publiées dans le Cloud et de programmer quelques services Cloud utiles à l'utilisateur...
+Il s'agit maintenant d'exploiter ces données brutes publiées dans le Cloud et de programmer quelques services Cloud pour l'utilisateur...
 
 Typiquement, le cas d'usage est le suivant :
 - supervision environnementale (météo locale avec nœuds de capteurs LoRa), ou plus généralement une plateforme de test pour projets IoT ;
