@@ -9,6 +9,8 @@ target_blank: true
 
 ### Bluetooth LE et Arduino Uno R4 WiFi
 
+Le Bluetooth basse consommation ou *Bluetooth Low Energy* est une technique de transmission sans fil basé sur le standard ouvert Bluetooth. Comparé au Bluetooth, le BLE permet un débit du même ordre de grandeur (1 Mbit/s) pour une consommation d'énergie 10 fois moindre. BLE est intégré aux normes Bluetooth par le [Bluetooth SIG](https://www.bluetooth.com/){:target="_blank"} (Le Bluetooth *Special Interest Group*)
+
 L'Arduino Uno R4 WiFi propose du Bluetooth *Low Energy* (BLE) via son module ESP32-S3/NORA-W106. Le Bluetooth « classique » avec un port série émulé comme sur les modules HC-05/HC-06 n'est plus possible, l'Arduino Uno R4 WiFi ne supporte que le **BLE**.
 
 Vous devrez installer la bibliothèque [ArduinoBLE](https://docs.arduino.cc/libraries/arduinoble/){:target="_blank"} en passant par le gestionnaire de bibliothèques de l'IDE Arduino 2.*x*. Vérifiez également que le firmware de la carte est à jour (menu *Tools/Firmware Updater*).
@@ -18,7 +20,7 @@ Vous devrez installer la bibliothèque [ArduinoBLE](https://docs.arduino.cc/libr
 
 ### Le protocole de communication BLE
 
-Pour être à l'aise avec un *sketch* exploitant le BLE, il faut comprendre les principes de base d'un protocole beaucoup plus rigoureux et organisé que celui du Bluetooth classique.
+Pour être à l'aise avec un *sketch* exploitant le BLE, il faut comprendre les principes de base d'un protocole beaucoup plus rigoureux et organisé que celui du Bluetooth classique. Le modèle de données utilisé par le Bluetooth LE pour organiser, structurer et échanger des informations entre appareils est défini par le GATT (*Generic Attribute Profile*) que l'on retrouve dans les [spécifications Bluetooth](https://www.bluetooth.com/specifications/specs/){:target="_blank"}.
 
 #### *Central* et *Peripheral*
 
@@ -68,7 +70,7 @@ BLEService ledService("fb32d672-9653-466b-82b3-304a3ba84b7d");
 ```
 Pour des services standards, les UUID codés sur 16 bits seulement sont répertoriés dans les spécifications Bluetooth (voir [Bluetooth - Assigned numbers](https://www.bluetooth.com/specifications/assigned-numbers/){:target="_blank"}). Par exemple, pour un service de température, on prendra l'UUID `0x1809`. Cette liste officielle d'UUID pour les services et caractéristiques courants facilite l'interopérabilité.
 
-Pour notre LED, l'identifiant UUID pour ce service particulier est une séquence hexadécimale pour un code 128 bits généré par un utilitaire de type [UUID Generator](https://www.uuidgenerator.net/){:target="_blank"} conforme à la RFC4122.
+Pour notre LED, l'identifiant UUID pour ce service particulier est une séquence hexadécimale pour un code 128 bits généré par un utilitaire de type [UUID Generator](https://www.uuidgenerator.net/){:target="_blank"} conforme à la [RFC4122](https://www.rfc-editor.org/rfc/rfc4122){:target="_blank"}.
 
 On crée selon le même principe une caractéristique à ce service :
 ```cpp
@@ -162,3 +164,5 @@ Comme appareil central, j'utilise mon smartphone Android avec une application g�
 Si vous avez déjà travaillé avec les modules Bluetooth *classiques* comme les HC‑05 ou HC‑06, le *Bluetooth Low Energy* fonctionne de manière assez différente. Les HC‑05/06 utilisent le Bluetooth SPP (*Serial Port Profile*), qui crée une liaison série sans fil : on envoie et on reçoit des octets comme sur un port UART, sans structure particulière. Le BLE, au contraire, repose sur une organisation en services et caractéristiques, avec des permissions de lecture, d’écriture ou de notification. Il ne fournit pas de port série virtuel, mais une communication plus structurée, plus économe en énergie et mieux adaptée aux objets connectés modernes.
 
 Après avoir assimilé les notions essentielles du protocole, vous pourrez développer des projets plus complets : transmettre des mesures de capteurs, configurer un appareil à distance et concevoir de petits objets connectés autonomes.
+
+Pour plus de détails, référez-vous à la documentation de la bibliothèque [ArduinoBLE](https://docs.arduino.cc/libraries/arduinoble/){:target="_blank"}.
