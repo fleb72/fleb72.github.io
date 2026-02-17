@@ -9,7 +9,7 @@ target_blank: true
 
 ### Bluetooth LE et Arduino Uno R4 WiFi
 
-Le Bluetooth basse consommation ou *Bluetooth Low Energy* est une technique de transmission sans fil basé sur le standard ouvert Bluetooth. Comparé au Bluetooth, le BLE permet un débit du même ordre de grandeur (1 Mbit/s) pour une consommation d'énergie 10 fois moindre. BLE est intégré aux normes Bluetooth par le [Bluetooth SIG](https://www.bluetooth.com/){:target="_blank"} (Le Bluetooth *Special Interest Group*)
+Le Bluetooth basse consommation ou *Bluetooth Low Energy* est une technique de transmission sans fil basée sur le standard ouvert Bluetooth. Comparé au Bluetooth, le BLE permet un débit du même ordre de grandeur (1 Mbit/s) pour une consommation d'énergie 10 fois moindre. BLE est intégré aux normes Bluetooth par le [Bluetooth SIG](https://www.bluetooth.com/){:target="_blank"} (Le Bluetooth *Special Interest Group*)
 
 L'Arduino Uno R4 WiFi propose du Bluetooth *Low Energy* (BLE) via son module ESP32-S3/NORA-W106. Le Bluetooth « classique » avec un port série émulé comme sur les modules HC-05/HC-06 n'est plus possible, l'Arduino Uno R4 WiFi ne supporte que le **BLE**.
 
