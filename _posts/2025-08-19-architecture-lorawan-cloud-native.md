@@ -58,7 +58,10 @@ Dans mon cas, voici les services proposés :
 > - La page Web publique est à l'adresse : `https://iot[dot]techfleb[dot]fr/latest?access=pjLW08`. Cette page ne dépose aucun cookie, ne collecte aucune donnée personnelle, et ne réalise aucun suivi utilisateur.  
 {: .prompt-info }
 
-
+> **En complément :**
+>
+> - [LoRaWAN pour les makers – Visualiser ses données dans un tableau de bord Node‑RED]({{ site.baseurl }}{{ site.url }}/posts/lorawan-dashboard-nodered/){:target="_blank"})
+{: .prompt-info}
 
 
 

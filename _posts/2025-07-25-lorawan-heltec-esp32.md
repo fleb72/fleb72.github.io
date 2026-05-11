@@ -383,3 +383,10 @@ Votre premier nœud LoRaWAN est fonctionnel...
 
 Si vous avez réussi à transmettre vos données par le réseau LoRaWAN, le projet n'est pas terminé pour autant. Même avec les données formatées, la restitution n'est pas très jolie et la persistance des données est limitée (vous avez quelques options avec le menu *Message storage*, mais cela reste encore insuffisant).
 Pour l'utilisateur final qui voudrait voir ses températures dans un tableau de bord avec des graphiques, il faut encore transmettre ces données en *preview* à un service tiers spécialisé. Ce sera l'objet d'un futur billet...
+
+
+> **En complément :**
+>
+> - [Architecture LoRaWAN Cloud Native expérimentale : collecte, stockage et visualisation des données]({{ site.baseurl }}{{ site.url }}/posts/architecture-lorawan-cloud-native/){:target="_blank"})
+> - [LoRaWAN pour les makers – Visualiser ses données dans un tableau de bord Node‑RED]({{ site.baseurl }}{{ site.url }}/posts/lorawan-dashboard-nodered/){:target="_blank"})
+{: .prompt-info}

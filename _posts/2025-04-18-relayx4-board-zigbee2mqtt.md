@@ -63,4 +63,9 @@ Ci-dessous, une petite vidéo de démonstration où je fais claquer les relais e
 ![IHM Node-RED](/assets/img/posts/2025-04-18-relayx4-board-zigbee2mqtt/nodered-ihm-Zigbee4ChannelRelay.png)
 *Construction de l'interface Web avec Node-RED sur Raspberry Pi*
 
-À suivre pour une application concrète avec cette carte (système d'arrosage automatique, commande d'ouverture de toit d'une serre, allez savoir ;-) 
+À suivre pour une application concrète avec cette carte (système d'arrosage automatique, commande d'ouverture de toit d'une serre, allez savoir ;-)
+
+> **En complément :**
+>
+> - [Zigbee low-cost : attention aux firmwares  – Retour d’expérience avec un module relais Zigbee 4CH]({{ site.baseurl }}{{ site.url }}/posts/zigbee-firmware-relay4ch-module/){:target="_blank"})
+{: .prompt-info}

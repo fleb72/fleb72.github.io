@@ -27,3 +27,8 @@ Une interface Web avec deux boutons est construite avec Node-RED. Sur clic, un m
 {"state_l1":"OFF", "state_l2":"ON"} 
 ```
 Je vais pouvoir commander l'ouverture de la trappe de la mini-serre pour l'aérer. Projet à suivre...
+
+> **En complément :**
+>
+> - [Zigbee low-cost : attention aux firmwares  – Retour d’expérience avec un module relais Zigbee 4CH]({{ site.baseurl }}{{ site.url }}/posts/zigbee-firmware-relay4ch-module/){:target="_blank"})
+{: .prompt-info}
