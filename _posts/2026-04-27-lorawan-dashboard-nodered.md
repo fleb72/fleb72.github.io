@@ -164,3 +164,9 @@ Après avoir configuré le flux, cliquez sur [Déployer] pour appliquer les chan
 ### Conclusion
 
 Avec ce tableau de bord Node‑RED, nous disposons désormais d’une visualisation claire et immédiate des données LoRaWAN issues de *The Things Stack*. C’est une première brique fonctionnelle, simple à mettre en place et suffisamment flexible pour évoluer au fil des besoins.
+
+
+> **En complément :**
+>
+> - [Node‑RED : envoyer une notification de température sur smartphone avec ntfy]({{ site.baseurl }}{{ site.url }}/posts/nodered-ntfy/){:target="_blank"}
+{: .prompt-info}
