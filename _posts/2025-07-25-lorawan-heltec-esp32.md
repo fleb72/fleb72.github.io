@@ -12,9 +12,22 @@ LoRaWAN (*Long Range Wide Area Network*) est un protocole de communication sans 
 ![Archtecture LoRaWAN](/assets/img/posts/2025-07-25-lorawan-heltec-esp32/architecture-lorawan.jpg)
 *Architecture LoRaWAN - Image sous licence CC BY-SA 4.0*
 
-Grâce à des plateformes collaboratives comme [The Things Network](https://www.thethingsnetwork.org/){:target="_blank"}, n’importe quel *maker* peut créer son propre nœud LoRaWAN et intégrer ses données dans le Cloud, sans frais ni abonnement grâce aux passerelles LoRaWAN publiques réparties sur tout le territoire.
+Grâce à des plateformes collaboratives comme [The Things Network](https://www.thethingsnetwork.org/){:target="_blank"} (ou *TTN*), n’importe quel *maker* peut créer son propre nœud LoRaWAN et intégrer ses données dans le Cloud, sans frais ni abonnement grâce aux passerelles LoRaWAN publiques réparties sur tout le territoire.
 
-> Avant de poursuivre, commencez par vous assurer sur [TTN Mapper](https://ttnmapper.org/heatmap/){:target="_blank"} que vous êtes à proximité d'une passerelle LoRaWAN publique. La couverture n'est pas complète au niveau national.
+> Avant de poursuivre, assurez‑vous qu’une passerelle LoRaWAN publique est présente dans votre zone.
+> La couverture n’est pas uniforme en France.
+>
+> Vous pouvez vérifier cela de plusieurs façons :
+>
+> – [TTNMapper](https://ttnmapper.org){:target="_blank"}, lorsqu’il est disponible : c’est la carte communautaire la plus précise.
+>
+> – [Carte officielle TTN](https://www.thethingsnetwork.org/map){:target="_blank"}, qui affiche les passerelles déclarées.
+>
+> Note : TTNMapper est un service communautaire maintenu par un seul développeur et peut être temporairement indisponible.
+> Son avenir fait actuellement l’objet d’une discussion sur le forum TTN :  
+[https://www.thethingsnetwork.org/forum/t/ttn-mapper-time-to-shut-down/72749](https://www.thethingsnetwork.org/forum/t/ttn-mapper-time-to-shut-down/72749){:target="_blank"}
+>
+> Et dans le pire des cas : si vous n’êtes pas certain d’être couvert, vous le verrez immédiatement dans la console TTN lorsque votre carte enverra ses premières données.
 {: .prompt-warning }
 
 ### Nœud LoRaWAN avec la carte Heltec WiFi LoRa 32 v3 et une sonde de température DS18B20

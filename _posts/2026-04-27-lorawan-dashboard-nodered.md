@@ -11,7 +11,7 @@ Dans un précédent billet (voir [LoRaWAN pour les makers – Mon premier nœud 
 
 Par la suite, j'ai remplacé cette sonde par un capteur SHT31 afin de mesurer à la fois la température et l'humidité (voir [Architecture LoRaWAN Cloud Native expérimentale : collecte, stockage et visualisation des données]({{ site.baseurl }}{{ site.url }}/posts/architecture-lorawan-cloud-native/){:target="_blank"}).
 
-Grâce à la passerelle LoRaWAN publique disponible à quelques kilomètres de [chez moi](https://ttnmapper.org/heatmap/gateway/?gateway=ttnv3-lemans-kerlink-franck&network=NS_TTS_V3://ttn@000013){:target="_blank"}, les *uplinks* de mon capteur sont transmis vers le cloud et apparaissent dans la plateforme [The Things Network](https://www.thethingsnetwork.org/){:target="_blank"}.
+Grâce à la passerelle LoRaWAN publique disponible à quelques kilomètres de chez moi (voir [la carte](https://www.thethingsnetwork.org/map){:target="_blank"} pour trouver la passerelle proche de chez vous), les *uplinks* de mon capteur sont transmis vers le cloud et apparaissent dans la plateforme [The Things Network](https://www.thethingsnetwork.org/){:target="_blank"}.
 
 ![Architecture LoRaWAN](/assets/img/posts/2026-04-27-lorawan-dashboard-nodered/architecture-lorawan-ttn.jpg)
 
