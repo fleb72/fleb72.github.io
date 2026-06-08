@@ -131,3 +131,8 @@ Cette petite application open‑source, gratuite et sans inscription, est bien p
 
 Toutes les possibilités sont détaillées dans la documentation officielle :
 [https://docs.ntfy.sh](https://docs.ntfy.sh){:target="_blank"}.
+
+> **En complément :**
+>
+> - [Node‑RED Dashboard V2 : un formulaire pour piloter un seuil d’alerte]({{ site.baseurl }}{{ site.url }}/posts/nodered-dashboard-v2-form-alert-threshold/){:target="_blank"}
+{: .prompt-info}
