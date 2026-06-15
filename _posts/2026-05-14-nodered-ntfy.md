@@ -1,5 +1,5 @@
 ---
-title: "Node‑RED : envoyer une notification de température sur smartphone avec ntfy"
+title: "Node‑RED : envoyer une notification de température sur smartphone avec ntfy.sh"
 date: 2026-05-14
 categories: ["Internet des Objets"]
 tags: [IoT, LoRa, LoRaWAN, "Node-RED"]
