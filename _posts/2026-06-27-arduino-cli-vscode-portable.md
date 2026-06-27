@@ -7,8 +7,6 @@ math: true
 target_blank: true
 ---
 
-### Introduction
-
 Dans de nombreux établissements scolaires, l’utilisation d’Arduino en salle informatique se heurte à des contraintes techniques bien connues : postes verrouillés, droits limités, proxys académiques restrictifs, dossiers utilisateurs redirigés sur le réseau pédagogique…
 Pour répondre à ces difficultés, j’ai développé un environnement Arduino portable, prêt à l’emploi, fonctionnant sans installation et sans droits administrateur, à condition d’être placé dans un dossier local.
 
@@ -39,7 +37,7 @@ L’objectif est de fournir un environnement :
 {: .prompt-warning }
 
 ### Téléchargement et documentation
-Le projet complet, avec instructions et sources, est disponible sur GitHub :
+Le projet complet avec les instructions est disponible sur GitHub :
 
 > [Arduino-LMS-portable](https://github.com/fleb72/Arduino-LMS-portable){:target="_blank"}
 {: .prompt-info }
@@ -47,8 +45,7 @@ Le projet complet, avec instructions et sources, est disponible sur GitHub :
 Vous y trouverez :
 
 - le pack portable ;
-- les bibliothèques intégrées ;
-- les scripts de configuration ;
+- les *cores* et bibliothèques intégrés ;
 - les explications détaillées ;
 - les mises à jour futures.
 
@@ -69,7 +66,7 @@ Dans ce pack, il est fourni en version portable, ce qui permet :
 
 
 #### arduino-cli : le moteur de compilation
-Le cœur du pack est arduino-cli, l’outil officiel en ligne de commande développé par Arduino.
+Le cœur du pack est Arduino-CLI, l’outil officiel en ligne de commande développé par Arduino.
 Il permet de compiler et téléverser les programmes sans interface graphique, ce qui présente plusieurs avantages :
 
 - fonctionnement hors‑ligne ;
@@ -79,7 +76,7 @@ Il permet de compiler et téléverser les programmes sans interface graphique, c
 - meilleure stabilité dans les environnements verrouillés.
 
 #### Pourquoi ce choix technique ?
-Ce duo VSCode portable + arduino-cli permet :
+Ce duo VSCode portable + Arduino-CLI permet :
 
 - une configuration entièrement contenue dans un dossier local ;
 - une utilisation sans droits admin ;
