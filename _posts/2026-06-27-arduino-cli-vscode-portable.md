@@ -2,7 +2,7 @@
 title: "Un environnement Arduino portable pour les établissements scolaires"
 date: 2026-06-27
 categories: [Arduino]
-tags: [ESP32, ArduinoUnoR4WiFi, vscode, LoRa]
+tags: [ESP32, ArduinoUnoR4WiFi, vscode, "Arduino-CLI", LoRa]
 math: true
 target_blank: true
 ---
@@ -89,3 +89,8 @@ C’est une solution plus robuste que l’IDE Arduino classique, qui dépend for
 ### Conclusion
 Cet environnement Arduino portable vise à simplifier l’usage d’Arduino dans les lycées, en contournant les contraintes techniques les plus courantes.
 Il permet de démarrer rapidement une séance, sans dépendre des installations locales ou des restrictions réseau.
+
+> **En complément :**
+>
+> - [Arduino CLI sous Linux : compiler et téléverser en ligne de commande]({{ site.baseurl }}{{ site.url }}/posts/arduino-cli-linux-workflow-git/){:target="_blank"}
+{: .prompt-info}
