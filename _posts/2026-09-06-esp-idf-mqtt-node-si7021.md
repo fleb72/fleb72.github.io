@@ -2,7 +2,7 @@
 title: "ESP-IDF : Nœud météo MQTT avec ESP32-C6 et Si7021"
 date: 2026-09-06
 categories: ["Internet des Objets", "domotique"]
-tags: [ESP32, "ESP-IDF"]
+tags: [ESP32, "ESP-IDF", MQTT, IoT]
 math: true
 target_blank: true
 ---
